@@ -1,0 +1,19 @@
+{
+	"f5-portgroup:portgroups": {
+		"portgroup": [{
+				"portgroup_name": "1/1",
+				"config": {
+					"name": "1/1",
+					"mode": "MODE_4x25GB"
+				}
+			},
+			{
+				"portgroup_name": "1/2",
+				"config": {
+					"name": "1/2",
+					"mode": "MODE_4x25GB"
+				}
+			}
+		]
+	}
+}

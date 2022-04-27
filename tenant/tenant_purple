@@ -1,0 +1,41 @@
+{
+	"tenant": [{
+			"name": "purple-bigip05-micro",
+			"config": {
+				"image": "BIGIP-14.1.4.6-0.0.8.T1-VELOS.qcow2.zip.bundle",
+				"nodes": [
+					2
+				],
+				"mgmt-ip": "10.0.0.19",
+				"gateway": "10.0.0.1",
+				"prefix-length": 24,
+				"vlans": [
+					110
+				],
+				"vcpu-cores-per-node": 2,
+				"memory": 7680,
+				"cryptos": "enabled",
+				"running-state": "deployed"
+			}
+		},
+		{
+			"name": "purple-bigip06-large",
+			"config": {
+				"image": "BIGIP-15.1.5.1-0.0.14.ALL-F5OS.qcow2.zip.bundle",
+				"nodes": [
+					2
+				],
+				"mgmt-ip": "10.0.0.20",
+				"gateway": "10.0.0.1",
+				"prefix-length": 24,
+				"vlans": [
+					110
+				],
+				"vcpu-cores-per-node": 8,
+				"memory": 30720,
+				"cryptos": "enabled",
+				"running-state": "deployed"
+			}
+		}
+	]
+}

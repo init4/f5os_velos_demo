@@ -1,0 +1,26 @@
+{
+    "f5-system-slot:slots": {
+        "slot": [
+            {
+                "slot-num": 1,
+                "enabled": true,
+                "partition": "none"
+            },
+            {
+                "slot-num": 2,
+                "enabled": true,
+                "partition": "none"
+            },
+            {
+                "slot-num": 3,
+                "enabled": true,
+                "partition": "none"
+            },
+            {
+                "slot-num": 4,
+                "enabled": true,
+                "partition": "none"
+            }
+        ]
+    }
+}

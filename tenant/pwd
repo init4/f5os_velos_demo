@@ -1,0 +1,9 @@
+{
+    "input": [
+        {
+            "old-password": "admin",
+            "new-password": "Default12345!",
+            "confirm-password": "Default12345!"
+        }
+    ]
+}

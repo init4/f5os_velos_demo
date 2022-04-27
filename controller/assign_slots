@@ -1,0 +1,16 @@
+{
+    "f5-system-slot:slots": {
+        "slot": [
+            {
+                "slot-num": 1,
+                "enabled": true,
+                "partition": "orange"
+            },
+            {
+                "slot-num": 2,
+                "enabled": true,
+                "partition": "purple"
+            }
+        ]
+    }
+}

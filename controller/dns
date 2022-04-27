@@ -1,0 +1,30 @@
+{
+    "openconfig-system:system": {
+        "clock": {
+            "config": {
+                "timezone-name": "Asia/Singapore"
+            }
+        },
+        "dns": {
+            "config": {
+                "search": "apcj.f5sa.com"
+            },
+            "servers": {
+                "server": [
+                    {
+                        "address": "10.0.0.1",
+                        "config": {
+                            "address": "10.0.0.1"
+                        }
+                    },
+                    {
+                        "address": "10.0.0.2",
+                        "config": {
+                            "address": "10.0.0.2"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
